@@ -33,11 +33,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     ## Local installs
-    'posts.apps.PostsConfig',
     'rest_framework',
+    'assessment.apps.AssessmentConfig',
+    'post.apps.PostConfig',
     'authentication.apps.AuthenticationConfig', 
     'packages.apps.PackagesConfig', 
-    'corsheaders',
 ]
 
 MIDDLEWARE = [
