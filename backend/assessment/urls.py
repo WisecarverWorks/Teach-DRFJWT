@@ -3,5 +3,5 @@ from assessment import views
 
 urlpatterns = [
     path('assessment/', views.get_all_assessment),
-    path('', views.user_assessments)
+    path('', views.user_assessment)
 ]
